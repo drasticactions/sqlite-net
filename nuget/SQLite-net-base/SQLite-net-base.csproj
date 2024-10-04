@@ -3,9 +3,10 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
     <AssemblyName>SQLite-net</AssemblyName>
-    <PackageId>sqlite-net-base</PackageId>
+    <PackageId>Drastic.sqlite-net-base</PackageId>
     <AssemblyTitle>SQLite-net .NET Standard Base Library</AssemblyTitle>
     <Description>
+      NativeAOT version of sqlite-net-pcl from https://github.com/Sergio0694/sqlite-net
       This is a special version of SQLite-net-pcl that does not include a SQLitePCLRaw bundle.
       It is meant to give you all the power of SQLite-net but with the freedom to choose your own provider.
       Please use the package sqlite-net-pcl if you have no idea what any of this means.
@@ -23,7 +24,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.2" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="2.1.10" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\src\SQLite.cs">

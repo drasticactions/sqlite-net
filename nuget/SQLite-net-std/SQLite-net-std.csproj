@@ -3,9 +3,10 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
     <AssemblyName>SQLite-net</AssemblyName>
-    <PackageId>sqlite-net-pcl</PackageId>
+    <PackageId>Drastic.sqlite-net-pcl</PackageId>
     <AssemblyTitle>SQLite-net Official .NET Standard Library</AssemblyTitle>
     <Description>
+      NativeAOT version of sqlite-net-pcl from https://github.com/Sergio0694/sqlite-net
       SQLite-net is an open source and light weight library providing easy SQLite database storage for .NET, Mono, and Xamarin applications.
       This version uses SQLitePCLRaw to provide platform independent versions of SQLite.
     </Description>
@@ -22,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.2" />
+    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.10" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\src\SQLite.cs">

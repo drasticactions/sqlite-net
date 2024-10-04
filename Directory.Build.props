@@ -1,11 +1,11 @@
 <Project>
     <PropertyGroup>
-        <VersionPrefix>1.9</VersionPrefix>
-        <VersionSuffix></VersionSuffix>
+        <VersionPrefix>2.0</VersionPrefix>
+        <VersionSuffix>alpha</VersionSuffix>
 
         <PackageIcon>Logo-low.png</PackageIcon>
-        <PackageProjectUrl>https://github.com/praeclarum/sqlite-net</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/praeclarum/sqlite-net.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/drasticactions/sqlite-net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/drasticactions/sqlite-net.git</RepositoryUrl>
         <PackageTags>sqlite-net;sqlite;database;orm</PackageTags>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 
